@@ -1,30 +1,72 @@
-javascript-Quiz-Board
-Author:Tushabe Barbra
-description of project
-A project that allows the user to answer questions from a multiple choice questions that you would have created
 
-set up instruction
-You would need the following to access the website *Smart phone/PC/laptop/Desktop/Tablet or any PDA *Internet connectivity (either wireless or ethernet), *A web browser(Chrome is most recommendable)
+# project-name
+    Pig_Dice
+## Author
+        Tushabe Barbra
 
-link to live site on GitHub pages
-BDD
-In this quiz board one is encouraged to answer all the questions witout failure:
+ ## Description
+    
+    The Pig-Dice game is a fun game based on two players rolling a dice.
 
-If you don't answer all the questions right your marks will still be displayed If your given the correct answer to a question you're awarded 20points per answer
+    A player rolls the die until either:
 
-technologies used
-HTML
-CSS
-Bootstrap
-JQuery
-Support
-Name:Tushabe Barbra
-Email:tushabestellah@gmail.com
-Sector:Kimironko
-Cell:Kibagabaga
-My whatsapp Number and cell phone:+250788642234
-Licence
-MIT license
-Copyright © 2018 Tushabe Barbra
-This project is designed by me under the surpervision of Moringa school Rwanda
-NB:plagialism is highly prohibited.
+    1. A one is rolled
+    2. The player chooses to hold i.e. stop rolling
+    When a one is rolled, accumulated points are discarded and the other player takes over the dice.
+
+    When Hold is pressed, the accumulated points are added to the player's final Score.
+
+    The other player then takes the die over.
+
+## BDD
+
+    The web application will request the names of two users.
+
+    The two players will proceed to roll the dice, by generating a random number from 1 to 6.
+
+    If the output is not a 1, a player will continue to accumulate points and can hold in his discretion to add up to his/her final tally.
+
+    An output of one results in a zero of accumulated points.
+
+    The first player to get 100 is the Winner!
+
+## Setup/Installation Requirements
+
+    git repository
+    Open a HTML file
+    chrome web browser
+    Git clone https://github.com/Gumbouwe/pig_dice.git or download and unzip the repository from github. user $ git clone https://github.com/Gumbouwe/pig_dice.git
+
+## Live demo
+
+    To view the page click on the link below
+
+    https://Gumbouwe.github.io/pig_dice/   
+
+## Technologies Used
+
+    HTML
+    CSS
+    Bootstrap
+    JQuery
+    JavaScript
+
+## Known Bugs
+
+    There are no known bugs. If you find any be sure to create an issue and I will respond to it.
+
+## Contributing
+
+    pull requests are encouraged
+
+## Support
+
+    For assistance contact tushabestellah@gmail.com
+
+## copyright
+
+    Copyright (c) [2018] [Tushabe Barbra]
+
+## License
+
+    This software Tushabe Barbra/pig_dice is licensed under the MIT license
